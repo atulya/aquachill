@@ -1,6 +1,10 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+
+	
+	<span class="label label-success">
+	</span></h3>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
@@ -20,6 +24,41 @@
     </div>
   </div>
 </nav>
+<div class="container-fluid" >
+	<div class="clsListDiv" class = "text-right">
+		<div id="update" class = "text-right">
+		</div>
+		<div id = "updatepmp" class = "text-right">
+		</div>
+		<div id="DeleteMsg">
+		</div>
+		<div id="EditAds">
+		</div>
+		<div id="EditOem">
+		</div>
+		<div id="EditOem">
+		</div>
+		<div id="EditVlv">
+		</div>
+		<div id="updateAds">
+		</div>
+		<div id = "clsOom">
+		</div>
+		<div id = "EditOOM">
+		</div>
+		<div id = "EditPPG">
+		</div>
+		<div id = "EditPmp">
+		</div>
+		<div id = "EditCT">
+		</div>
+		<div id = "EditAhu">
+		</div>
+		<div id = "EditDct">
+		</div>
+	</div>
+    
+</div>
 <!-- <div class="container-fluid">
   <div class="col-md-1 col-md-offset-1 text-center"><a href="javascript:void();" class="btn btn-primary btn-lg">OEM</a></div>
   <div class="col-md-1 text-center"><a href="javascript:void();" class="btn btn-primary btn-lg">OOM</a></div>
@@ -37,17 +76,17 @@
     <img src="assets/images/aquachill-logo.png" height="80px" alt="">
     <hr>
     <ul class="nav nav-sidebar text-left">
-      <li class="active"><a href="#">Summary <span class="sr-only">(current)</span></a></li>
-      <li><a href="#">OEM</a></li>
-      <li><a href="#">OOM</a></li>
-      <li><a href="#">PPG</a></li>
-      <li><a href="#">VLN</a></li>
+      <li class="active"><a href="summary.php">Summary <span class="sr-only">(current)</span></a></li>
+      <li><a href="oem.php">OEM</a></li>
+      <li><a href="oom.php">OOM</a></li>
+      <li><a href="ppg.php">PPG</a></li>
+      <li><a href="vlv.php">VLV</a></li>
       <li><a href="#">PIN</a></li>
-      <li><a href="#">PMP</a></li>
-      <li><a href="#">CT</a></li>
-      <li><a href="#">AHU</a></li>
-      <li><a href="#">DCT</a></li>
-      <li><a href="#">ADS</a></li>
+      <li><a href="pmp.php">PMP</a></li>
+      <li><a href="ct.php">CT</a></li>
+      <li><a href="ahu.php">AHU</a></li>
+      <li><a href="dct.php">DCT</a></li>
+      <li><a href="ads.php">ADS</a></li>
     </ul>
   </div>
 </div>
